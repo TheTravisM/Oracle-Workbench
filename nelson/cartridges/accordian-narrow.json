@@ -1,0 +1,20 @@
+{
+	"id":"accordian-narrow",
+	"name": "Accordian Narrow",
+	"templates": ["TwoColumnResultsPage"],
+	"sections": ["MainColumn"],
+  "subSections": ["Left"],
+	"editableFields": [
+		"Name",
+		"Headline",
+		"Text Copy"
+	],
+	"description": "An on-page headline that can be expanded to reveal more information",
+	"images": [
+		"img/cartridges/accordian-narrow-1.png",
+		"img/cartridges/accordian-narrow-2.png",		
+		"img/cartridges/accordian-narrow-5.png",
+		"img/cartridges/accordian-narrow-3.png",
+		"img/cartridges/accordian-narrow-4.png"
+	]
+}

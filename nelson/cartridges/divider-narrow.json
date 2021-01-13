@@ -1,0 +1,14 @@
+{
+	"id":"divider-narrow",
+	"name": "Divider Narrow",
+	"templates": ["TwoColumnResultsPage"],
+  "sections": ["Main Column"],
+	"editableFields": ["Name"],
+	"description": "Display a CSS faded divider rule",
+	"images": [
+		"img/cartridges/divider-narrow-1.png",
+		"img/cartridges/divider-narrow-2.png",
+		"img/cartridges/divider-narrow-3.png",
+		"img/cartridges/divider-narrow-4.png"
+	]
+}

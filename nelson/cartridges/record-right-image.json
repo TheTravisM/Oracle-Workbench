@@ -1,0 +1,20 @@
+{
+  "id": "record-right-image",
+  "name": "Record Right Image",
+  "templates": ["RecordDetailsPage"],
+  "sections": ["RecordBottom"],
+  "sub-sections": ["RecordRightColumn"],
+	"editableFields": [
+		"Name",
+		"Record Right Image Src: URL where image resides…relative path",
+		"Record Right Image: HREF URL to set the link as.  If null then image displays without a hyperlink…also included is _target field",
+		"Record Right Image Alt Text: Alt text for the image"
+	],
+  "description": "Displays a single image optional link. Images should be sized 230px wide",
+  "images": [
+		"img/cartridges/record-right-image-1.png",
+		"img/cartridges/record-right-image-2.png",
+		"img/cartridges/record-right-image-3.png",
+		"img/cartridges/record-right-image-4.png"
+	]
+}

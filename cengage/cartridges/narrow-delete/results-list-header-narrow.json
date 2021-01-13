@@ -1,0 +1,18 @@
+{
+  "id": "results-list-header-narrow",
+  "name": "Results List Header Narrow",
+  "templates": ["ResultsFullWidth"],
+  "sections": ["MainColumn"],
+  "subSections": ["Left"],
+	"editableFields": [
+		"Name: If present, then show the header navigation for the results list",
+		"Show / Hide Help Link: Boolean Y/N…if Y then show 'Can't find what you are looking for?'' text and link.  If N, then suppress."
+	],
+  "description": "Displays the header navigation for the record results list",
+  "images": [
+		"img/cartridges/results-list-header-narrow-1.png",  
+		"img/cartridges/results-list-header-narrow-2.png",
+		"img/cartridges/results-list-header-narrow-3.png",
+		"img/cartridges/results-list-header-narrow-4.png"
+	]
+}

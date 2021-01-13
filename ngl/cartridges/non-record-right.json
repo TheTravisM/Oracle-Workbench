@@ -1,0 +1,27 @@
+{
+	"id":"non-record-right",
+	"name": "Non Record Right",
+  "templates": ["TwoColumnResultsPage"],
+  "sections": ["MainColumn"],
+	"editableFields": [
+		"Name",
+		"Image: URL where image resides…relative path",
+		"Image link URL: HREF URL to set the link as.  If null then image displays without a hyperlink…also included is _target field",
+		"Non Record Right Image Target: Weather you want the link to open in a new window or not",
+		"Image Alt Text: Alt text for the image",
+		"Title: Title text that returns such as example (SERIES: Opposing Viewpoints in World History)",
+		"Subtitle: Subtitle text that returns such as example (Published by Greenhaven Press)",
+		"Text: Body text that returns with HTML formatting that should be read"
+	],
+  "description": "Displays a 'Non Record' result with image on 'Right' side to x px",
+  "exampleLinks": [
+  	"s-www.cengage.com/search_cat/SearchhtmlCartridges/NonRecordRight.html",
+  	"s-ngl.cengage.com/htmlCartidges/NonRecordRight.html"
+  ],  
+  "images": [
+		"img/cartridges/non-record-right-1.png",  
+		"img/cartridges/non-record-right-2.png",
+		"img/cartridges/non-record-right-3.png",
+		"img/cartridges/non-record-right-4.png"
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"id":"single-image-right",
+	"name": "Single Image Right",
+	"templates": ["ResultsFullWidth"],
+  "sections": ["Right"],
+	"editableFields": [
+		"Name",
+		"Single Image: URL where image resides…relative path",
+		"Single Image Alt Text: Alt text for the image"
+		],
+  "description": "Display a single image with optional link. Image should be sized to x",
+	"images": [
+		"img/cartridges/single-image-right-1.png",
+		"img/cartridges/single-image-right-2.png",
+		"img/cartridges/single-image-right-3.png",
+		"img/cartridges/single-image-right-4.png",		
+		"img/cartridges/single-image-right-5.png"
+	]
+}

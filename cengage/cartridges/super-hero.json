@@ -1,0 +1,24 @@
+{
+  "id": "super-hero",
+  "name": "Super Hero",
+  "templates": ["TwoColumnResultsPage, RecordDetailsPage"],
+  "sections": ["Header"],
+	"editableFields": [
+		"Name",
+		"Image",
+		"Image Alt Text",
+		"CTA",
+		"CTA URL",
+		"Target: Weather you want the link to open in a new window or not",
+		"Thumb Image",
+		"Thumb Caption"
+	],
+  "description": "Full width carsousel with up to 6 images/captions all using H1 tag for their headline. There is no width limit.",
+	"images": [
+		"img/cartridges/super-hero-1.png",
+		"img/cartridges/super-hero-2.png",
+		"img/cartridges/super-hero-3.png",
+		"img/cartridges/super-hero-4.png",
+		"img/cartridges/super-hero-5.png"
+	]
+}

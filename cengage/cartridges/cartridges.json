@@ -1,0 +1,263 @@
+[
+  {
+  "id": "accordian-main",
+  "name": "Accordian Main",
+  "templates": ["ResultsFullWidth"],
+  "sections": ["Main"],
+  "description": "An on-page headline that can be expanded to reveal more information",
+  "imageUrl": "img/cartridges/accordian-1.png"
+  },
+  {
+  "id": "divider-main",
+  "name": "Divider Main",
+  "templates": ["ResultsFullWidth", "RecordDetailsPage"],
+  "sections": ["Main"],
+  "description": "Display a CSS faded divider rule",
+  "imageUrl": "img/cartridges/divider-1.png"
+  },
+  {
+  "id": "hero-image-main",
+  "name": "Hero Image Main",
+  "templates": ["ResultsFullWidth"],
+  "sections": ["Main"],
+  "description": "Display a single image with optional link. Image should be sized to 724px x 240px",
+  "imageUrl": "img/cartridges/hero-image-1.png"
+  },
+  {
+  "id": "hero-text-main",
+  "name": "Hero Text Main",
+  "templates": ["ResultsFullWidth"],
+  "sections": ["Main"],
+  "description": "HTML version of the hero cartridge for easier editability",
+  "imageUrl": "img/cartridges/hero-text-1.png"
+  },
+  {
+  "id": "non-record-left-main",
+  "name": "Non Record Left Main",
+  "templates": ["ResultsFullWidth"],
+  "sections": ["Main"],
+  "description": "Displays a 'Non Record' result with image on 'Left' side to x px",
+  "imageUrl": "img/cartridges/non-record-left-1.png"
+  },
+  {
+  "id": "non-record-right-main",
+  "name": "Non Record Right Main",
+  "templates": ["ResultsFullWidth"],
+  "sections": ["Main"],
+  "description": "Displays a 'Non Record' result with image on 'Right' side to x px",
+  "imageUrl": "img/cartridges/non-record-right-1.png"
+  },
+  {
+  "id": "quick-links-main",
+  "name": "Quick Links Main",
+  "templates": ["ResultsFullWidth"],
+  "sections": ["Main"],
+  "description": "Displays title box with a list of links and descriptions.",
+  "imageUrl": "img/cartridges/quick-links-1.png"
+  },
+  {
+  "id": "rss-main",
+  "name": "RSS Main",
+  "templates": ["ResultsFullWidth"],
+  "sections": ["Main"],
+  "description": "Displays RSS Feed in box title",
+  "imageUrl": "img/cartridges/rss-1.png"
+  },
+  {
+  "id": "record-scroll-banner-main",
+  "name": "Record Scroll Banner Main",
+  "templates": ["ResultsFullWidth"],
+  "sections": ["Main"],
+  "description": "Displays a record spotlight banner with scrollbar if needed",
+  "imageUrl": "img/cartridges/record-scroll-banner-1.png"
+  },
+  {
+  "id": "results-list-main",
+  "name": "Results List Main",
+  "templates": ["ResultsFullWidth"],
+  "sections": ["Main"],
+  "description": "Displays search and navigation results in a list or grid view",
+  "imageUrl": "img/cartridges/results-list-1.png"
+  },
+  {
+  "id": "results-list-header-main",
+  "name": "Results List Header Main",
+  "templates": ["ResultsFullWidth"],
+  "sections": ["Main"],
+  "description": "Displays the header navigation for the record results list",
+  "imageUrl": "img/cartridges/results-list-header-1.png"
+  },
+  {
+  "id": "rotating-banner-main",
+  "name": "Rotating Banner Main - Rotating Heros",
+  "templates": ["ResultsFullWidth"],
+  "sections": ["Main"],
+  "description": "Displays a rotating banner / hero images with optional links. A max of 7 images can be used. Max width is 1180px with no max height. Images will be centered.",
+  "imageUrl": "img/cartridges/rotating-banner-1.png"
+  },
+  {
+  "id": "story-block-main",
+  "name": "Story Block Main",
+  "templates": ["ResultsFullWidth"],
+  "sections": ["Main"],
+  "description": "Group of 3 story blocks, Images have a max width of 360px. Height is not defined. Be sure to make the height and width of each image the same for each ofthe 3 images you use.",
+  "imageUrl": "img/cartridges/story-block-1.png"
+  },
+  {
+  "id": "title-text-main",
+  "name": "Title Text Main",
+  "templates": ["ResultsFullWidth"],
+  "sections": ["Main"],
+  "description": "Displays a Title box with a paragraph and linked text at end of paragraph. This cartridge is dynamic and the width will contract and expand up to 1180px max width.",
+  "imageUrl": "img/cartridges/title-text-1.png"
+  },
+  {
+  "id": "video-main",
+  "name": "Video Main",
+  "templates": ["ResultsFullWidth"],
+  "sections": ["Main"],
+  "description": "Video URL should contain the URL to file without the extention. The extention (mp4, webm, srt, and txt) will be added by the application",
+  "imageUrl": "img/cartridges/video-1.png"
+  },
+  {
+  "id": "video-hero-main",
+  "name": "Video Hero Main",
+  "templates": ["ResultsFullWidth"],
+  "sections": ["Main"],
+  "description": "Video URL should contain the URL to file without the extention. The extention (mp4, webm, srt, and txt) will be added by the application",
+  "imageUrl": "img/cartridges/video-hero-1.png"
+  },
+  {
+  "id": "html-button-right",
+  "name": "HTML Button Right",
+  "templates": ["ResultsFullWidth"],
+  "sections": ["Right"],
+  "description": "Open HTML text box with option to add Image Map beneath text",
+  "imageUrl": "img/cartridges/html-button-right-1.png"
+  },
+  {
+  "id": "rotating-image-right",
+  "name": "Rotating Image Right",
+  "templates": ["ResultsFullWidth"],
+  "sections": ["Right"],
+  "description": "Displays rotating images with optional links. Images should be 230px wide",
+  "imageUrl": "img/cartridges/rotating-image-right-1.png"
+  },
+  {
+  "id": "single-image-right",
+  "name": "Single Image Right",
+  "templates": ["ResultsFullWidth"],
+  "sections": ["Right"],
+  "description": "Displays single images with optional links. Images should be 230px wide. Height is variable",
+  "imageUrl": "img/cartridges/single-image-right-1.png"
+  },
+  {
+  "id": "full-width-breadcrumbs",
+  "name": "Full Width Breadcrumbs",
+  "templates": ["ResultsFullWidth", "RecordDetailsPage"],
+  "sections": ["Header"],
+  "description": "Display breadcrumb and Title appropriate to the current refinement state",
+  "imageUrl": "img/cartridges/full-width-breadcrumbs-1.png"
+  },
+  {
+  "id": "content-slot-full",
+  "name": "Content Slot Full",
+  "templates": ["ResultsFullWidth", "RecordDetailsPage"],
+  "sections": ["Header"],
+  "description": "This is a dynamic cartridge that calls other cartridges",
+  "imageUrl": "img/cartridges/content-slot-full-1.png"
+  },
+  {
+  "id": "super-hero",
+  "name": "Super Hero",
+  "templates": ["ResultsFullWidth, RecordDetailsPage"],
+  "sections": ["Header"],
+  "description": "Full width carsousel with up to 6 images/captions all using H1 tag for their headline. There is no limit to the width of images.",
+  "imageUrl": "img/cartridges/super-hero-1.png"
+  },
+  {
+  "id": "guided-navigation",
+  "name": "Guided Navigation",
+  "templates": ["ResultsFullWidth"],
+  "sections": ["header"],
+  "description": "Creates a container for navigation cartridges",
+  "imageUrl": "img/cartridges/guided-navigation-1.png"
+  },
+  {
+  "id": "cover-image",
+  "name": "Cover Image",
+  "templates": ["RecordDetailsPage"],
+  "sections": ["RecordTopLeft"],
+  "description": "Displays cover image below cover image",
+  "imageUrl": "img/cartridges/cover-image-1.png"
+  },
+  {
+  "id": "product-info",
+  "name": "Product Info",
+  "templates": ["RecordDetailsPage"],
+  "sections": ["RecordTopCenter"],
+  "description": "Displays cover image below cover image",
+  "imageUrl": "img/cartridges/product-info-1.png"
+  },
+  {
+  "id": "ecommerce",
+  "name": "Ecommerce",
+  "templates": ["RecordDetailsPage"],
+  "sections": ["RecordTopRight"],
+  "description": "Displays ecommerce block of code based on business logic",
+  "imageUrl": "img/cartridges/ecommerce-1.png"
+  },
+  {
+  "id": "tab-content",
+  "name": "Tab Content",
+  "templates": ["RecordDetailsPage"],
+  "sections": ["RecordBottom"],
+  "description": "Displays tab content based on business logic with optional enchancements",
+  "imageUrl": "img/cartridges/tab-content-1.png"
+  },
+  {
+  "id": "tab-HTML",
+  "name": "Tab HTML",
+  "templates": ["RecordDetailsPage"],
+  "sections": ["RecordBottom"],
+  "subSection": ["Left Tab, Right Tab"],
+  "description": "Open HTML text box that will fill tab",
+  "imageUrl": "img/cartridges/tab-html-3.png"
+  },
+  {
+  "id": "tab-video",
+  "name": "Tab Video",
+  "templates": ["RecordDetailsPage"],
+  "sections": ["RecordBottom"],
+  "subSections": ["Left Tab", "Right Tab"],
+  "description": "Video URL should contain the URL to the file without the extention. The extention (mp4, webm, srt, and txt) will be added by the application",
+  "imageUrl": "img/cartridges/tab-video-1.png"
+  },
+  {
+  "id": "record-right-HTML",
+  "name": "Record Right HTML",
+  "templates": ["RecordDetailsPage"],
+  "sections": ["Record Bottom"],
+  "sub-sections": ["Record Right Column"],
+  "description": "Open HTML text box with width of 230px",
+  "imageUrl": "img/cartridges/record-right-html-1.png"
+  },
+  {
+  "id": "record-right-image",
+  "name": "Record Right Image",
+  "templates": ["RecordDetailsPage"],
+  "sections": ["Record Bottom"],
+  "subSections": ["RecordRightColumn"],
+  "description": "Displays a single image optional link. Images should be sized 230px wide",
+  "imageUrl": "img/cartridges/record-right-image-1.png"
+  },
+  {
+  "id": "record-right-rotating-image",
+  "name": "Record Right Rotating Image",
+  "templates": ["RecordDetailsPage"],
+  "sections": ["RecordBottom"],
+  "subSections": ["RecordRightColumn"],
+  "description": "Displays a rotating images optional link. Images should be sized 230px wide",
+  "imageUrl": "img/cartridges/record-right-rotating-image-1.png"
+  }  
+]

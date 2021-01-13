@@ -1,0 +1,20 @@
+{
+  "id": "video-main",
+  "name": "Video Main",
+  "templates": ["ResultsFullWidth"],
+  "sections": ["MainColumn"],
+  "subSections": ["Left"],
+	"editableFields": [
+	"Name",
+	"Title",
+	"Video XML URL"
+	],
+	"description": "Video URL should contain the URL to file without the extention. The extention (mp4, webm, srt, and txt) will be added by the application",
+	"images": [
+	"img/cartridges/video-1.png",
+	"img/cartridges/video-2.png",
+	"img/cartridges/video-5.png",	
+	"img/cartridges/video-3.png",
+	"img/cartridges/video-4.png"
+	]
+}

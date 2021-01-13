@@ -1,0 +1,15 @@
+{
+	"id":"full-width-breadcrumbs",
+	"name": "Full Width Breadcrumbs",
+	"templates": ["ResultsFullWidth", "RecordDetailsPage"],
+	"sections": ["Header"],
+	"editableFields": ["Name"],
+	"description": "Display breadcrumb and Title appropriate to the current refinement state. This cartridge is 100% responsive.",
+	"images": [
+		"img/cartridges/full-width-breadcrumbs-1.png",
+		"img/cartridges/full-width-breadcrumbs-2.png",
+		"img/cartridges/full-width-breadcrumbs-5.png",
+		"img/cartridges/full-width-breadcrumbs-3.png",
+		"img/cartridges/full-width-breadcrumbs-4.png"
+	]
+}

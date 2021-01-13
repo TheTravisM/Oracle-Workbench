@@ -1,0 +1,25 @@
+{
+  "id": "rotating-banner-main",
+  "name": "Rotating Banner Main - Rotating Heros",
+  "templates": ["ResultsFullWidth"],
+  "sections": ["MainColumn"],
+	"editableFields": [
+		"Name",
+		"Image: URL where image resides…relative path",
+		"Image Link URL: HREF URL to set the link as.  If null then image displays without a hyperlink…also included is _target field",
+		"Image Target: Weather you want the link to open in a new window or not",
+		"Image Alt Text: Alt text for the image"
+	],
+	"description": "Displays a rotating banner / hero images with optional links. A max of 7 images can be used. Max width is 1180px with no max height. Images will be centered. Make sure all images used are the same height and width",
+	"example-links": [
+		"s-www.cengage.com/search_cat/SearchhtmlCartridges/RotatingBanner.html",
+		"s-ngl.cengage.com/htmlCartidges/SlideShow.html"
+	],
+	"images": [
+		"img/cartridges/rotating-banner-1.png",
+		"img/cartridges/rotating-banner-2.png",
+		"img/cartridges/rotating-banner-5.png",
+		"img/cartridges/rotating-banner-3.png",
+		"img/cartridges/rotating-banner-4.png"
+	]
+}

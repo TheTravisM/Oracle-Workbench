@@ -1,0 +1,22 @@
+{
+  "id": "search-box",
+  "name": "Search Box",
+  "templates": ["TwoColumnResultsPage"],
+  "sections": ["MainColumn"],
+	"editableFields": [
+		"Name: If Searchbox cartridge exists, display Refine Search box like provided code…image information properies is for the image to the right of the Search box",
+		"Search Box Title: Title text that goes in the Search box…in example it is 'Welcome to Higher Education' ",
+		"Image: URL where image resides…relative path",
+		"Image link URL: HREF URL to set the link as.  If null then image displays without a hyperlink…also included is _target field",
+		"Search Image Target: Weather you want the link to open in a new window or not",
+		"Image Alt Text: Alt text for the image"
+	],
+	"description": "Main page search box and ad image",
+	"exampleLinks": ["s-www.cengage.com/search_cat/SearchhtmlCartridges/SearchBox.html"], 
+	"images": [
+		"img/cartridges/search-box-1.png",
+		"img/cartridges/search-box-2.png",
+		"img/cartridges/search-box-3.png",
+		"img/cartridges/search-box-4.png"
+	]
+}

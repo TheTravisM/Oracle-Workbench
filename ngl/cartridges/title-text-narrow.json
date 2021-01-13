@@ -1,0 +1,22 @@
+{
+  "id": "title-text-narrow",
+  "name": "Title Text Narrow",
+  "templates": ["TwoColumnResultsPage"],
+  "sections": ["MainColumn"],
+  "subSections": ["Left"],
+	"editableFields": [
+		"Name",
+		"Title: Text that returns as 'Title Placeholder' in HTML mockup",
+		"Text: Description text that returns",
+		"Link Text: Text that returns at end of the description to be hyperlinked (can be NULL in which case there will be no link)",
+		"Link Text URL: HREF and target window to link up the Linktext with",
+		"Target: Weather you want the link to open in a new window or not"
+		],
+  "description": "Displays a Title box with a paragraph and linked text at end of paragraph",
+	"images": [
+		"img/cartridges/title-text-narrow-1.png",
+		"img/cartridges/title-text-narrow-2.png",
+		"img/cartridges/title-text-narrow-3.png",
+		"img/cartridges/title-text-narrow-4.png"
+	]
+}

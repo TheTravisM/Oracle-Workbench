@@ -1,0 +1,20 @@
+{
+	"id":"rss-narrow",
+	"Name": "RSS Narrow",
+  "templates": ["ResultsFullWidth"],
+  "sections": ["MainColumn"],
+  "subSections": ["Left"],
+	"editableFields": [
+		"Name",
+		"RSS Title: Text that returns as 'RSS Feed' in HTML mockup",
+		"RSS Feed URL: URL to RSS feed",
+		"Number of Posts: Number of posts to display"
+	],
+	"description": "Displays RSS Feed in box with title",
+  "images": [
+		"img/cartridges/rss-narrow-1.png",  
+		"img/cartridges/rss-narrow-2.png",
+		"img/cartridges/rss-narrow-3.png",
+		"img/cartridges/rss-narrow-4.png"
+	]
+}

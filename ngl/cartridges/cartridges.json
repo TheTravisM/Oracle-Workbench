@@ -1,0 +1,387 @@
+[
+  {
+  "id": "accordian",
+  "name": "Accordian",
+  "templates": ["TwoColumnResultsPage"],
+  "sections": ["MainColumn"],
+  "description": "An on-page headline that can be expanded to reveal more information",
+  "imageUrl": "img/cartridges/accordian-1.png"
+  },
+  {
+  "id": "divider",
+  "name": "Divider",
+  "templates": ["TwoColumnResultsPage", "RecordDetailsPage"],
+  "sections": ["Main Column"],
+  "description": "Display a CSS faded divider rule",
+  "imageUrl": "img/cartridges/divider-1.png"
+  },
+  {
+  "id": "hero-image",
+  "name": "Hero Image",
+  "templates": ["TwoColumnResultsPage"],
+  "sections": ["MainColumn"],
+  "description": "Display a single image with optional link. Image should be sized to 724px x 240px",
+  "imageUrl": "img/cartridges/hero-image-1.png"
+  },
+  {
+  "id": "hero-text",
+  "name": "Hero Text",
+  "templates": ["TwoColumnResultsPage"],
+  "sections": ["MainColumn"],
+  "description": "HTML version of the hero cartridge for easier editability",
+  "imageUrl": "img/cartridges/hero-text-1.png"
+  },
+  {
+  "id": "non-record-left",
+  "name": "Non Record Left",
+  "templates": ["TwoColumnResultsPage"],
+  "sections": ["MainColumn"],
+  "description": "Displays a 'Non Record' result with image on 'Left' side to x px",
+  "imageUrl": "img/cartridges/non-record-left-1.png"
+  },
+  {
+  "id": "non-record-right",
+  "name": "Non Record Right",
+  "templates": ["TwoColumnResultsPage"],
+  "sections": ["MainColumn"],
+  "description": "Displays a 'Non Record' result with image on 'Right' side to x px",
+  "imageUrl": "img/cartridges/non-record-right-1.png"
+  },
+  {
+  "id": "quick-links",
+  "name": "Quick Links",
+  "templates": ["TwoColumnResultsPage"],
+  "sections": ["MainColumn"],
+  "description": "Displays title box with a list of links and descriptions.",
+  "imageUrl": "img/cartridges/quick-links-1.png"
+  },
+  {
+  "id": "rss",
+  "name": "RSS",
+  "templates": ["TwoColumnResultsPage"],
+  "sections": ["MainColumn"],
+  "description": "Displays RSS Feed in box title",
+  "imageUrl": "img/cartridges/rss-1.png"
+  },
+  {
+  "id": "record-scroll-banner",
+  "name": "Record Scroll Banner",
+  "templates": ["TwoColumnResultsPage"],
+  "sections": ["MainColumn"],
+  "description": "Displays a record spotlight banner with scrollbar if needed",
+  "imageUrl": "img/cartridges/record-scroll-banner-1.png"
+  },
+  {
+  "id": "results-list",
+  "name": "Results List",
+  "templates": ["TwoColumnResultsPage"],
+  "sections": ["MainColumn"],
+  "description": "Displays search and navigation results in a list or grid view",
+  "imageUrl": "img/cartridges/results-list-1.png"
+  },
+  {
+  "id": "results-list-header",
+  "name": "Results List Header",
+  "templates": ["TwoColumnResultsPage"],
+  "sections": ["MainColumn"],
+  "description": "Displays the header navigation for the record results list",
+  "imageUrl": "img/cartridges/results-list-header-1.png"
+  },
+  {
+  "id": "rotating-banner",
+  "name": "Rotating Banner",
+  "templates": ["TwoColumnResultsPage"],
+  "sections": ["MainColumn"],
+  "description": "Displays a rotating banner with optional links. Images should be 724px x 240px",
+  "imageUrl": "img/cartridges/rotating-banner-1.png"
+  },
+  {
+  "id": "search-box",
+  "name": "Search Box",
+  "templates": ["TwoColumnResultsPage"],
+  "sections": ["MainColumn"],
+  "description": "Main page search box and ad image",
+  "imageUrl": "img/cartridges/search-box-1.png"
+  },
+  {
+  "id": "story-block",
+  "name": "Story Block",
+  "templates": ["TwoColumnResultsPage"],
+  "sections": ["MainColumn"],
+  "description": "Group of 3 story blocks",
+  "imageUrl": "img/cartridges/story-block-1.png"
+  },
+  {
+  "id": "title-text",
+  "name": "Title Text",
+  "templates": ["TwoColumnResultsPage"],
+  "sections": ["MainColumn"],
+  "description": "Displays a Title box with a paragraph and linked text at end of paragraph",
+  "imageUrl": "img/cartridges/title-text-1.png"
+  },
+  {
+  "id": "video-hero",
+  "name": "Video Hero",
+  "templates": ["TwoColumnResultsPage"],
+  "sections": ["MainColumn"],
+  "description": "Video URL should contain the URL to file without the extention. The extention (mp4, webm, srt, and txt) will be added by the application",
+  "imageUrl": "img/cartridges/video-hero-1.png"
+  },
+  {
+  "id": "wrapper",
+  "name": "Wrapper",
+  "templates": ["TwoColumnResultsPage"],
+  "sections": ["MainColumn"],
+  "description": "Lives in Main Column Content area and holds left and right subcartridges side by side",
+  "imageUrl": "img/cartridges/wrapper-1.png"
+  },
+  {
+  "id": "accordian-narrow",
+  "name": "Accordian Narrow",
+  "templates": ["TwoColumnResultsPage"],
+  "sections": ["MainColumn"],
+  "subSections": ["Left"],
+  "description": "An on-page headline that can be expanded to reveal more information",
+  "imageUrl": "img/cartridges/accordian-narrow-1.png"
+  },
+  {
+  "id": "divider-narrow",
+  "name": "Divider Narrow",
+  "templates": ["TwoColumnResultsPage", "RecordDetailsPage"],
+  "sections": ["Main Column"],
+  "subSections": ["Left"],
+  "description": "Display a CSS faded divider rule",
+  "imageUrl": "img/cartridges/divider-narrow-1.png"
+  },
+  {
+  "id":"hero-image-narrow",
+  "name": "Hero Image Narrow",
+  "templates": ["TwoColumnResultsPage"],
+  "sections": ["Main Column"],
+  "subSections": ["Left"],
+  "description": "Display a single image with optional link. Image should be sized to x",
+  "imageUrl": "img/cartridges/hero-image-narrow-1.png"
+  },
+  {
+  "id": "hero-text-narrow",
+  "name": "Hero Text Narrow",
+  "templates": ["TwoColumnResultsPage"],
+  "sections": ["MainColumn"],
+  "subSections": ["Left"],
+  "description": "HTML version of the hero cartridge for easier editability",
+  "imageUrl": "img/cartridges/hero-text-narrow-1.png"
+  },
+  {
+  "id": "non-record-left-narrow",
+  "name": "Non Record Left Narrow",
+  "templates": ["TwoColumnResultsPage"],
+  "sections": ["MainColumn"],
+  "subSections": ["Left"],
+  "description": "Displays a 'Non Record' result with image on 'Left' side to x px",
+  "imageUrl": "img/cartridges/non-record-left-narrow-1.png"
+  },
+  {
+  "id": "non-record-right-narrow",
+  "name": "Non Record Right Narrow",
+  "templates": ["TwoColumnResultsPage"],
+  "sections": ["MainColumn"],
+  "subSections": ["Left"],
+  "description": "Displays a 'Non Record' result with image on 'Right' side to x px",
+  "imageUrl": "img/cartridges/non-record-right-narrow-1.png"
+  },
+  {
+  "id":"quick-links-narrow",
+  "name": "Quick Links Narrow",
+  "templates": ["TwoColumnResultsPage"],
+  "sections": ["MainColumn"],
+  "subSections": ["Left"],
+  "description": "Displays title box with a list of links and descriptions. Up to 5 links",
+  "imageUrl": "img/cartridges/quick-links-narrow-1.png"
+  },
+  {
+  "id": "rss-narrow",
+  "name": "RSS Narrow",
+  "templates": ["TwoColumnResultsPage"],
+  "sections": ["MainColumn"],
+  "subSections": ["Left"],
+  "description": "Displays RSS Feed in box title",
+  "imageUrl": "img/cartridges/rss-narrow-1.png"
+  },
+  {
+  "id": "results-list-header-narrow",
+  "name": "Results List Header Narrow",
+  "templates": ["TwoColumnResultsPage"],
+  "sections": ["MainColumn"],
+  "subSections": ["Left"],
+  "description": "Displays the header navigation for the record results list",
+  "imageUrl": "img/cartridges/results-list-header-narrow-1.png"
+  },
+  {
+  "id": "results-list-narrow",
+  "name": "Results List Narrow",
+  "templates": ["TwoColumnResultsPage"],
+  "sections": ["MainColumn"],
+  "subSections": ["Left"],
+  "description": "Displays search and navigation results in list or gird view. You can have one of these cartridges on the page, either narrow ...",
+  "imageUrl": "img/cartridges/results-list-narrow-1.png"
+  },
+  {
+  "id": "title-text-narrow",
+  "name": "Title Text Narrow",
+  "templates": ["TwoColumnResultsPage"],
+  "sections": ["MainColumn"],
+  "subSections": ["Left"],
+  "description": "Displays a Title box with a paragraph and linked text at end of paragraph",
+  "imageUrl": "img/cartridges/title-text-narrow-1.png"
+  },
+  {
+  "id": "video-narrow",
+  "name": "Video Narrow",
+  "templates": ["TwoColumnResultsPage"],
+  "sections": ["MainColumn"],
+  "subSections": ["Left"],
+  "description": "Video URL should contain the URL to file without the extention. The extention (mp4, webm, srt, and txt) will be added by the application",
+  "imageUrl": "img/cartridges/video-narrow-1.png"
+  },
+  {
+  "id": "html-button",
+  "name": "HTML button",
+  "templates": ["TwoColumnResultsPage"],
+  "sections": ["MainColumn"],
+  "description": "Open HTML text box with option to add Image Map beneath text",
+  "imageUrl": "img/cartridges/html-button-1.png"
+  },
+  {
+  "id": "rotating-image",
+  "name": "Rotating Image",
+  "templates": ["TwoColumnResultsPage"],
+  "sections": ["MainColumn"],
+  "description": "Displays rotating images with optional links. Images should be 230px wide",
+  "imageUrl": "img/cartridges/rotating-image-1.png"
+  },
+  {
+  "id": "single-image",
+  "name": "Single Image",
+  "templates": ["TwoColumnResultsPage"],
+  "sections": ["MainColumn"],
+  "description": "Displays single images with optional links. Images should be 230px wide. Height is variable",
+  "imageUrl": "img/cartridges/single-image-1.png"
+  },
+  {
+  "id": "full-width-breadcrumbs",
+  "name": "Full Width Breadcrumbs",
+  "templates": ["TwoColumnResultsPage", "RecordDetailsPage"],
+  "sections": ["Header"],
+  "description": "Display breadcrumb and Title appropriate to the current refinement state",
+  "imageUrl": "img/cartridges/full-width-breadcrumbs-1.png"
+  },
+  {
+  "id": "super-hero",
+  "name": "Super Hero",
+  "templates": ["TwoColumnResultsPage, RecordDetailsPage"],
+  "sections": ["Header"],
+  "description": "Full width carsousel with up to 6 images/captions all using H1 tag for their headline",
+  "imageUrl": "img/cartridges/super-hero-1.png"
+  },
+  {
+  "id": "guided-navigation",
+  "name": "Guided Navigation",
+  "templates": ["TwoColumnResultPage"],
+  "sections": ["LeftColumn"],
+  "description": "Creates a container for navigation cartridges",
+  "imageUrl": "img/cartridges/guided-navigation-1.png"
+  },
+  {
+  "id": "html",
+  "name": "HTML",
+  "templates": ["TwoColumnResultsPage"],
+  "sections": ["LeftColumn"],
+  "description": "Open HTML text box",
+  "imageUrl": "img/cartridges/html-1.png"
+  },
+  {
+  "id": "refine-search",
+  "name": "Refine Search",
+  "templates": ["TwoColumnResultsPage"],
+  "sections": ["LeftColumn"],
+  "description": "Displays Refine Search Box",
+  "imageUrl": "img/cartridges/refine-search-1.png"
+  },
+  {
+  "id": "cover-image",
+  "name": "Cover Image",
+  "templates": ["RecordDetailsPage"],
+  "sections": ["RecordTopLeft"],
+  "description": "Displays cover image below cover image",
+  "imageUrl": "img/cartridges/cover-image-1.png"
+  },
+  {
+  "id": "product-info",
+  "name": "Product Info",
+  "templates": ["RecordDetailsPage"],
+  "sections": ["RecordTopCenter"],
+  "description": "Displays cover image below cover image",
+  "imageUrl": "img/cartridges/product-info-1.png"
+  },
+  {
+  "id": "ecommerce",
+  "name": "Ecommerce",
+  "templates": ["RecordDetailsPage"],
+  "sections": ["RecordTopRight"],
+  "description": "Displays ecommerce block of code based on business logic",
+  "imageUrl": "img/cartridges/ecommerce-1.png"
+  },
+  {
+  "id": "tab-content",
+  "name": "Tab Content",
+  "templates": ["RecordDetailsPage"],
+  "sections": ["RecordBottom"],
+  "description": "Displays tab content based on business logic with optional enchancements",
+  "imageUrl": "img/cartridges/tab-content-1.png"
+  },
+  {
+  "id": "tab-HTML",
+  "name": "Tab HTML",
+  "templates": ["RecordDetailsPage"],
+  "sections": ["RecordBottom"],
+  "subSection": ["Left Tab, Right Tab"],
+  "description": "Open HTML text box that will fill tab",
+  "imageUrl": "img/cartridges/tab-html-3.png"
+  },
+  {
+  "id": "tab-video",
+  "name": "Tab Video",
+  "templates": ["RecordDetailsPage"],
+  "sections": ["RecordBottom"],
+  "subSections": ["Left Tab", "Right Tab"],
+  "description": "Video URL should contain the URL to the file without the extention. The extention (mp4, webm, srt, and txt) will be added by the application",
+  "imageUrl": "img/cartridges/tab-video-1.png"
+  },
+  {
+  "id": "record-right-HTML",
+  "name": "Record Right HTML",
+  "templates": ["RecordDetailsPage"],
+  "sections": ["Record Bottom"],
+  "sub-sections": ["Record Right Column"],
+  "description": "Open HTML text box with width of 230px",
+  "imageUrl": "img/cartridges/record-right-html-3.png"
+  },
+  {
+  "id": "record-right-image",
+  "name": "Record Right Image",
+  "templates": ["RecordDetailsPage"],
+  "sections": ["Record Bottom"],
+  "subSections": ["RecordRightColumn"],
+  "description": "Displays a single image optional link. Images should be sized 230px wide",
+  "imageUrl": "img/cartridges/record-right-image-1.png"
+  },
+  {
+  "id": "record-right-rotating-image",
+  "name": "Record Right Rotating Image",
+  "templates": ["RecordDetailsPage"],
+  "sections": ["RecordBottom"],
+  "subSections": ["RecordRightColumn"],
+  "description": "Displays a rotating images optional link. Images should be sized 230px wide",
+  "imageUrl": "img/cartridges/record-right-rotating-image-3.png"
+  }  
+]

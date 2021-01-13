@@ -1,0 +1,71 @@
+<header ng-include src="headerHtml" id="top" class="navbar navbar-inverse navbar-fixed-top" role="navigation"></header>
+
+    <div class="container-fluid cartridge-detail">
+      <div class="row">
+        <div id="sidebar-navigation" class="col-sm-3 col-md-2 sidebar">
+        <!-- NAV -->
+        <!-- END NAV -->
+        </div><!--End Sidebar-->
+
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+          <h1 class="page-header">{{cartridge.name}}</h1>
+          
+          <dl class="editable-fields">
+            <dt>Templates:</dt>
+            <dd ng-repeat="template in cartridge.templates">
+              {{template}}
+            </dd>
+            <dt>Sections:</dt>
+            <dd ng-repeat="section in cartridge.sections">
+              {{section}}
+            </dd>
+            <dt>Editable Fields:</dt>
+            <dd ng-repeat="editableField in cartridge.editableFields">
+              {{editableField}}
+            </dd>
+            <dt>Description:</dt>
+            <dd>{{cartridge.description}}</dd>
+          
+            <!--  
+            <dt>Example Links:</dt>
+            <dd ng-repeat="exampleLink in cartridge.exampleLinks">
+              <a href="http://{{exampleLink}}" target="_blank">{{exampleLink}}</a>
+            </dd>
+            -->
+
+          </dl>
+
+
+          <!-- IMAGES -->
+
+          <h2 class="sub-header">Images</h2>
+
+          <ul id="movieposters" class="cartridge-thumbs">
+            <li ng-repeat="img in cartridge.images" data-toggle="modal" data-target="#cartridge-details-modal">
+              <img ng-src="{{img}}" ng-click="setImage(img)">
+            </li>
+          </ul>
+
+        </div><!-- End Main-->  
+      </div>
+
+					<!-- Modal -->
+					<div class="modal fade" id="cartridge-details-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+					  <div class="modal-dialog">
+					    <div class="modal-content">
+					      <div class="modal-header">
+					        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+					        <h4 class="modal-title" id="myModalLabel">{{cartridge.name}}</h4>
+					      </div>
+					      <div class="modal-body">
+					        <img ng-src="{{mainImageUrl}}">
+					      </div>
+					      <div class="modal-footer">
+					        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+
+
+    </div>

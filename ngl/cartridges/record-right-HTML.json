@@ -1,0 +1,18 @@
+{
+  "id": "record-right-HTML",
+  "name": "Record Right HTML",
+  "templates": ["RecordDetailsPage"],
+  "sections": ["Record Bottom"],
+  "sub-sections": ["Record Right Column"],
+	"editableFields": [
+		"Name",
+		"HTML Code: Rich text field that should render as HTML"
+	],
+  "description": "Open HTML text box with width of 230px",
+  "images": [
+		"img/cartridges/record-right-html-1.png",  
+		"img/cartridges/record-right-html-2.png",
+		"img/cartridges/record-right-html-3.png",
+		"img/cartridges/record-right-html-4.png"
+	]
+}

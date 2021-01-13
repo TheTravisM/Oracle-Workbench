@@ -1,0 +1,22 @@
+{
+  "id": "results-list-header-main",
+  "name": "Results List Header Main",
+  "templates": ["ResultsFullWidth"],
+  "sections": ["MainColumn"],
+	"editableFields": [
+		"Name: If present, then show the header navigation for the results list",
+		"Show / Hide Help Link: Boolean Y/N…if Y then show 'Can't find what you are looking for?'' text and link.  If N, then suppress."
+	],
+  "description": "Displays the header navigation for the results list cartridge. This cartridge is 100% responsive",
+  "exampleLinks": [
+  	"s-www.cengage.com/search_cat/SearchhtmlCartridges/ResultsListHeader.html",
+  	"s-ngl.cengage.com/htmlCartidges/ResultsListHeader.html"
+  ],
+  "images": [
+		"img/cartridges/results-list-header-1.png",  
+		"img/cartridges/results-list-header-2.png",
+    "img/cartridges/results-list-header-5.png",
+		"img/cartridges/results-list-header-3.png",
+		"img/cartridges/results-list-header-4.png"
+	]
+}

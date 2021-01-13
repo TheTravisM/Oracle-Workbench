@@ -1,0 +1,16 @@
+{
+	"id":"divider-main",
+	"name": "Divider Main",
+	"templates": ["ResultsFullWidth"],
+  "sections": ["Main"],
+	"editableFields": [
+		"Name"
+	],
+	"description": "Display a CSS faded divider rule",
+	"images": [
+		"img/cartridges/divider-1.png",
+		"img/cartridges/divider-2.png",
+		"img/cartridges/divider-3.png",
+		"img/cartridges/divider-4.png"
+	]
+}

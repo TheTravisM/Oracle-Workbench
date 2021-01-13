@@ -1,0 +1,16 @@
+{
+  "id": "guided-navigation",
+  "name": "Guided Navigation",
+  "templates": ["TwoColumnResultPage"],
+  "sections": ["LeftColumn"],
+	"editableFields": ["Name"],
+  "description": "Creates a container for navigation cartridges",
+  "exampleLinks": ["s-www.cengage.com/search_cat/SearchhtmlCartridges/GuidedNavigation.html"],
+	"images": [
+		"img/cartridges/guided-navigation-1.png",
+		"img/cartridges/guided-navigation-2.png",
+		"img/cartridges/guided-navigation-3.png",
+		"img/cartridges/guided-navigation-4.png",
+		"img/cartridges/guided-navigation-5.png"		
+	]
+}

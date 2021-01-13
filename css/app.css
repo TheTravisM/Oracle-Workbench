@@ -1,0 +1,240 @@
+/* app css stylesheet */
+
+body { padding-bottom: 50px; }
+
+/* ------------------------- */
+/* -- Cartridge LIST PAGE -- */
+/* ------------------------- */
+
+.cartridge-list { 
+  list-style: none; 
+  padding-left: 0;
+}
+
+.cartridge-list h4 { margin: 0; }
+
+.cartridge-list .thumbnail { border-radius: 0; }
+
+.cartridge-list li {
+  clear: both;
+  padding: 10px;
+  overflow: hidden;
+  -webkit-box-shadow: 0 2px 5px 0 #DDD;
+  box-shadow: 0 2px 5px 0 #DDD;
+  transition: all .2s ease-in-out;
+}
+
+.cartridge-list li:hover,
+.cartridge-list li:hover a.thumbnail {
+  -webkit-box-shadow: 0 2px 5px 0 #AAA;
+  box-shadow: 0 2px 5px 0 #AAA;
+}
+
+.cartridge-list a.thumbnail {
+  display: block;
+  float: left;
+  padding: 4px;
+  background-color: #FFF; 
+  border: 1px solid #DDD;
+  margin: 0 10px 0 0;
+  transition: all .2s ease-in-out;
+  overflow: hidden;
+  -webkit-box-shadow: 0 2px 5px 0 #DDD;
+  box-shadow: 0 2px 5px 0 #DDD;
+}
+
+.cartridge-list a.thumbnail:hover { border: 1px solid #428BCA; }
+
+.thumbnail img { 
+  max-height: 103px; 
+  min-width: 175px;
+}
+
+.list-right-content { overflow: hidden; }
+
+.cartridge-list dl { margin-bottom: 0;}
+
+.cartridge-list .dl-horizontal dt { max-width: 84px; }
+
+@media (min-width: 768px) { .dl-horizontal dd { margin-left: 95px; } }
+
+/* -- Cartridge Details Page -- */
+
+.cartridge-detail h1 {
+  color: #fff;
+  font-size: 48px;
+  padding-bottom: 25px;
+  text-shadow: 0 1px  0 #CCC,
+               0 2px  0 #C9C9C9,
+               0 3px  0 #BBB,
+               0 4px  0 #B9B9B9,
+               0 5px  0 #AAA,
+               0 6px  1px rgba(0,0,0,.1),
+               0 0px  5px rgba(0,0,0,.1),
+               0 1px  3px rgba(0,0,0,.3),
+               0 3px  5px rgba(0,0,0,.2),
+               0 5px  10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+
+/* ---------------------- */
+/* -- DETAIL VIEW PAGE -- */
+/* ---------------------- */
+
+.fighter-stats { }
+
+ul.editable-fields { list-style: none; }
+
+.cartridge-detail dt { margin-top: 10px; } 
+.cartridge-detail dd { margin-left: 20px; }
+
+/* IMAGES */
+
+.cartridge-thumbs { 
+  margin: 40px 0 0 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.cartridge-thumbs li {
+  border: 1px solid #DDD;
+  -webkit-box-shadow: 0 2px 5px 0 #DDD;
+  box-shadow: 0 2px 5px 0 #DDD;
+  cursor: pointer;
+  display: inline;
+  height: 206px;  
+  width: 206px;
+  float: left;
+  margin: 0 30px 30px 0;
+  transition: all .2s ease-in-out;
+}
+
+ul.cartridge-thumbs li:last-of-type { margin-right: 0; }
+
+.cartridge-thumbs li:hover {
+  border: 1px solid #428BCA;  
+  -webkit-box-shadow: 0 2px 5px 0 #AAA;
+  box-shadow: 0 2px 5px 0 #AAA;
+}
+
+.cartridge-thumbs li img {
+  background-color: #fff;
+  max-height: 100%;
+  max-width: 100%;
+  padding: 10px;
+}
+
+.modal-dialog {
+  width: auto;
+  max-width: 800px;
+}
+
+.modal-dialog img { max-width: 100%; }
+
+ul.specs {
+  clear: both;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ul.specs > li{
+  display: inline-block;
+  width: 200px;
+  vertical-align: top;
+}
+
+ul.specs > li > span{
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+ul.specs dt {
+  font-weight: bold;
+}
+
+/* --------------------- */
+/* ------- HOME -------- */
+/* --------------------- */
+
+.jumbotron {
+  position: relative;
+  padding: 40px 0;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);
+  background: #699c03; /* Old browsers */
+  background: -moz-linear-gradient(left, #699c03 0%, #98cb32 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%,#699c03), color-stop(100%,#98cb32)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left, #699c03 0%,#98cb32 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left, #699c03 0%,#98cb32 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(left, #699c03 0%,#98cb32 100%); /* IE10+ */
+  background: linear-gradient(to right, #699c03 0%,#98cb32 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#699c03', endColorstr='#98cb32',GradientType=1 ); /* IE6-9 */     -moz-box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
+          box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
+}
+.jumbotron h1 {
+  font-size: 80px;
+  font-weight: bold;
+  letter-spacing: -1px;
+  line-height: 1;
+}
+.jumbotron p {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 1.25;
+}
+
+/* Masthead (docs home) ------------------------- */
+.masthead {
+  padding: 70px 0 80px;
+  margin-bottom: 0;
+  color: #fff;
+}
+.masthead h1 {
+  font-size: 120px;
+  line-height: 1;
+  letter-spacing: -2px;
+}
+.masthead p {
+  font-size: 40px;
+  font-weight: 200;
+  line-height: 1.25;
+  margin: 0;
+}
+
+/* Social proof buttons from GitHub & Twitter */
+.gray-bar {
+  padding: 15px 0;
+  text-align: center;
+  background-color: #f5f5f5;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 60px;
+}
+
+.home-workbench .col-sm-4 { 
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.home-workbench .col-sm-4 a {
+}
+
+
+.home-workbench .col-sm-4 img {
+  -webkit-box-shadow: 0 2px 5px 0 #DDD;
+  box-shadow: 0 2px 5px 0 #DDD;
+  transition: all .2s ease-in-out;
+  width: 240px;
+  height: 240px;
+} 
+
+.home-workbench .col-sm-4 a:hover img {
+  -webkit-box-shadow: 0 2px 5px 0 #AAA;
+  box-shadow: 0 2px 5px 0 #AAA;
+}
+
+
+.home-workbench .col-sm-4 a:hover img { border: 1px solid #428BCA; }

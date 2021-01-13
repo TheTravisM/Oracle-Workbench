@@ -1,0 +1,15 @@
+{
+  "id": "product-info",
+  "name": "Product Info",
+  "templates": ["RecordDetailsPage"],
+  "sections": ["RecordTopCenter"],
+	"editableFields": ["Name"],
+  "description": "If property exists, display code for Title and Biblio info",
+	"images": [
+		"img/cartridges/product-info-1.png",
+		"img/cartridges/product-info-2.png",
+		"img/cartridges/product-info-3.png",
+		"img/cartridges/product-info-4.png",
+		"img/cartridges/product-info-5.png"
+	]
+}

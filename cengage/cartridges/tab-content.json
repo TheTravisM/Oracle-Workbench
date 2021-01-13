@@ -1,0 +1,23 @@
+{
+  "id": "tab-content",
+  "name": "Tab Content",
+  "templates": ["RecordDetailsPage"],
+  "sections": ["RecordBottom"],
+	"editableFields": [
+		"Name",
+		"Banner Image Src: If exists, display banner image across top of all tabs (URL where image resides…relative path)",
+		"Banner Image Href: HREF URLto set the link as. If null then image displays without a hyperlink…also included is _target field",
+		"Banner Image Target: Weather you want the link to open in a new window or not",
+		"Banner Alt Text: Alt text for the image",
+		"Left Tab: ConentItemList that will contain cartridges for the Left (first) tab. Name of the tab is populated by name of the first cartridge loaded in the tab.",
+		"Right Tab: ConentItemList that will contain cartridges for the Right (last) tab. Name of the tab is populated by name of the first cartridge loaded in the tab.",
+		"Record Right Column: ConentItemList that will contain Right nav cartridges. If these exist, tabs will need to render narrow versions to accommodate cartridges o the right"
+	],
+  "description": "Displays tab content based on business logic with optional enchancements",
+  "images": [
+		"img/cartridges/tab-content-1.png",  
+		"img/cartridges/tab-content-2.png",
+		"img/cartridges/tab-content-4.png",
+		"img/cartridges/tab-content-5.png"
+	]
+}

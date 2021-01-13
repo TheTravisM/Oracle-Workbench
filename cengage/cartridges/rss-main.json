@@ -1,0 +1,19 @@
+{
+	"id":"rss-main",
+	"Name": "RSS Main",
+  "templates": ["ResultsFullWidth"],
+  "sections": ["MainColumn"],
+	"editableFields": [
+		"Name",
+		"RSS Title: Text that returns as 'RSS Feed' in HTML mockup",
+		"RSS Feed URL: The URL to RSS feed",
+		"Number of Posts: Number of posts to display, 1 - 5 "
+	],
+	"description": "Displays a RSS Feed with title. The RSS feed is fully responsive showing between 1 and 5 posts",
+	"images": [
+		"img/cartridges/rss-1.png",
+		"img/cartridges/rss-2.png",
+		"img/cartridges/rss-3.png",
+		"img/cartridges/rss-4.png"
+	]
+}

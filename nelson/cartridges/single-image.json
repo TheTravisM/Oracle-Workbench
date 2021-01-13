@@ -1,0 +1,19 @@
+{
+	"id":"single-image",
+	"name": "Single Image",
+	"templates": ["TwoColumnResultsPage"],
+  "sections": ["Main Column"],
+  "subSections": ["Right"],
+	"editableFields": [
+		"Name",
+		"Single Image: URL where image resides…relative path",
+		"Single Image Alt Text: Alt text for the image"
+		],
+  "description": "Display a single image with optional link. Image should be sized to x",
+	"images": [
+		"img/cartridges/single-image-1.png",
+		"img/cartridges/single-image-2.png",
+		"img/cartridges/single-image-3.png",
+		"img/cartridges/single-image-4.png"
+	]
+}

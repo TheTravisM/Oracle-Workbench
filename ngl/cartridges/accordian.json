@@ -1,0 +1,19 @@
+{
+	"id":"accordian",
+	"name": "Accordian",
+	"templates": ["TwoColumnResultsPage"],
+	"sections": ["MainColumn"],
+	"editableFields": [
+		"Name",
+		"Headline",
+		"Text Copy"
+	],
+	"description": "An on-page headline that can be expanded to reveal more information",
+	"images": [
+		"img/cartridges/accordian-1.png",
+		"img/cartridges/accordian-5.png",
+		"img/cartridges/accordian-2.png",
+		"img/cartridges/accordian-3.png",
+		"img/cartridges/accordian-4.png"
+	]
+}

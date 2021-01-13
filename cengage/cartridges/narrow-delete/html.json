@@ -1,0 +1,18 @@
+{
+	"id":"html",
+	"name": "HTML",
+  "templates": ["ResultsFullWidth"],
+  "sections": ["LeftColumn"],
+	"editableFields": [
+		"Name",
+		"HTMl Code: Put code inside of the cartridge div and render as HTML code"
+	],
+  "description": "Open HTML text box",
+  "exampleLinks": ["s-ngl.cengage.com/htmlCartidges/htmlButton.html"], 
+  "images": [
+		"img/cartridges/html-1.png",
+		"img/cartridges/html-2.png",
+		"img/cartridges/html-3.png",
+		"img/cartridges/html-4.png"
+	]
+}

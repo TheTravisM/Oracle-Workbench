@@ -1,0 +1,21 @@
+{
+  "id": "rotating-image",
+  "name": "Rotating Image",
+  "templates": ["TwoColumnResultsPage"],
+  "sections": ["MainColumn"],
+  "subSections": ["Right"],
+	"editableFields": [
+		"Name",
+		"Image: URL where image resides…relative path",
+		"Image Link URL: HREF URL to set the link as.  If null then image displays without a hyperlink…also included is _target field",
+		"Image Target: Weather you want the link to open in a new window or not",
+		"Image Alt Text: : Alt text for the image"
+	],
+  "description": "Displays rotating images with optional links. Images should be 230px wide",
+  "images": [
+		"img/cartridges/rotating-image-1.png",  
+		"img/cartridges/rotating-image-2.png",
+		"img/cartridges/rotating-image-3.png",
+		"img/cartridges/rotating-image-4.png"
+	]
+}	

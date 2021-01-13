@@ -1,0 +1,15 @@
+{
+	"id":"content-slot-full",
+	"name": "Content Slot Full",
+	"templates": ["ResultsFullWidth", "RecordDetailsPage"],
+	"sections": ["Header"],
+	"editableFields": ["Name"],
+  "description": "This is a dynamic cartridge that calls other cartridges",
+	"images": [
+		"img/cartridges/content-slot-full-1.png",
+		"img/cartridges/content-slot-full-2.png",
+		"img/cartridges/content-slot-full-3.png",
+		"img/cartridges/content-slot-full-4.png",
+		"img/cartridges/content-slot-full-5.png"
+	]
+}

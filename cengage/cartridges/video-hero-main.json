@@ -1,0 +1,22 @@
+{
+  "id": "video-hero-main",
+  "name": "Video Hero Main",
+  "templates": ["ResultsFullWidth"],
+  "sections": ["MainColumn"],
+	"editableFields": [
+	"Name",
+	"Background Image URL",
+	"Background Image HREF",
+	"Target: Weather you want the link to open in a new window or not",
+	"Background Image Alt Text",
+	"Video XML URL"
+	],
+	"description": "Video URL should contain the URL to file without the extention. The extention (mp4, webm, srt, and txt) will be added by the application",
+	"images": [
+	"img/cartridges/video-hero-1.png",
+	"img/cartridges/video-hero-2.png",
+	"img/cartridges/video-hero-5.png",
+	"img/cartridges/video-hero-3.png",
+	"img/cartridges/video-hero-4.png"
+	]
+}

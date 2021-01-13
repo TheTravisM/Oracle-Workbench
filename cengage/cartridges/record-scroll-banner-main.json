@@ -1,0 +1,22 @@
+{
+  "id": "record-scroll-banner-main",
+  "name": "Record Scroll Banner Main",
+  "templates": ["ResultsFullWidth"],
+  "sections": ["MainColumn"],
+	"editableFields": [
+		"Name",
+		"Title: Text that returns in the h2 tag that says 'top-selling titles' in the html example",
+		"Records: list of records to populate"
+	],
+  "description": "Displays a record spotlight banner with scrollbar if needed",
+  "exampleLinks": [
+  	"s-www.cengage.com/search_cat/SearchhtmlCartridges/RefineSearch.html",
+  	"s-ngl.cengage.com/htmlCartidges/RecordScrollBanner.html"
+  ],
+  "images": [
+		"img/cartridges/record-scroll-banner-1.png",  
+		"img/cartridges/record-scroll-banner-2.png",
+		"img/cartridges/record-scroll-banner-3.png",
+		"img/cartridges/record-scroll-banner-4.png"
+	]
+}

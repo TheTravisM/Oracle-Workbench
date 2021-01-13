@@ -1,0 +1,20 @@
+{
+	"id":"hero-text",
+	"name": "Hero Text",
+	"templates": ["TwoColumnResultsPage"],
+  "sections": ["MainColumn"],
+  "editableFields": [
+  	"Name",
+  	"Headline",
+  	"Call to Action",
+  	"Action URL",
+  	"Target: Weather you want the link to open in a new window or not"
+  ],
+  "description": "HTML version of the hero cartridge for easier editability",	
+	"images": [
+		"img/cartridges/hero-text-1.png",
+		"img/cartridges/hero-text-2.png",
+		"img/cartridges/hero-text-3.png",
+		"img/cartridges/hero-text-4.png"
+	]
+}

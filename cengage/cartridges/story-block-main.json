@@ -1,0 +1,22 @@
+{
+  "id": "story-box-main",
+  "name": "Story Box Main",
+  "templates": ["Results Full Width"],
+  "sections": ["Main Column"],
+	"editableFields": [
+		"Name",
+		"Search Box Title",
+		"Image",
+		"Image link URL",
+		"Search Image Target: Weather you want the link to open in a new window or not",
+		"Image Alt Text"
+	],
+  "description": "Group of 3 story blocks, Images have a max width of 360px. Height is not defined. Be sure to make the height and width of each image the same for each ofthe 3 images you use.",
+	"images": [
+		"img/cartridges/story-block-1.png",
+		"img/cartridges/story-block-2.png",
+		"img/cartridges/story-block-5.png",
+		"img/cartridges/story-block-3.png",
+		"img/cartridges/story-block-4.png"
+	]
+}

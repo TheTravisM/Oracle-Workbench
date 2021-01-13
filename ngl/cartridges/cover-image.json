@@ -1,0 +1,16 @@
+{
+  "id": "cover-image",
+  "name": "Cover Image",
+  "templates": ["RecordDetailsPage"],
+  "sections": ["RecordTopLeft"],
+	"editableFields": [
+		"Name"
+	],
+  "description": "If property exists, display code for Cover and left top links",
+	"images": [
+		"img/cartridges/cover-image-1.png",
+		"img/cartridges/cover-image-2.png",
+		"img/cartridges/cover-image-3.png",
+		"img/cartridges/cover-image-4.png"
+	]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "results-list",
+  "name": "Results List",
+  "templates": ["TwoColumnResultsPage"],
+  "sections": ["MainColumn"],
+	"editableFields": [
+		"Name",
+		"Customize Results List",
+		"Default Sort",
+		"boostStrata: Boosted records that should go at top of results",
+		"buryStrata: Buried records that should go at bottom of results",
+		"sort: Customized sort on record set",
+		"recsPerPage: Number of records to display in the records per page function",
+		"navigation_records: Returned record set…if results list exists, should return search results for that state with above parameters"
+	],
+  "description": "Displays search and navigation results in a list or grid view",
+  "images": [
+		"img/cartridges/results-list-1.png",  
+		"img/cartridges/results-list-2.png",
+		"img/cartridges/results-list-3.png",
+		"img/cartridges/results-list-4.png"
+	]
+}

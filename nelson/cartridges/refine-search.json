@@ -1,0 +1,18 @@
+{
+  "id": "refine-search",
+  "name": "Refine Search",
+  "templates": ["TwoColumnResultsPage"],
+  "sections": ["LeftColumn"],
+	"editableFields": [
+		"Name: If exists, display guided navigation based on current state",
+		"Refinements: Gives guided navigation configuration details and order of dimensions to display. Dimension Name to Presentation Value Mapping"
+	],
+  "description": "Displays Refine Search Box",
+  "exampleLinks": ["s-www.cengage.com/search_cat/SearchhtmlCartridges/RefineSearch.html"],
+  "images": [
+		"img/cartridges/refine-search-1.png",  
+		"img/cartridges/refine-search-2.png",
+		"img/cartridges/refine-search-3.png",
+		"img/cartridges/refine-search-4.png"
+	]
+}

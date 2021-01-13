@@ -1,0 +1,17 @@
+{
+  "id": "tab-HTML",
+  "name": "Tab HTML",
+  "templates": ["RecordDetailsPage"],
+  "sections": ["RecordBottom"],
+	"editableFields": [
+		"Name",
+		"HTML Code: Rich text field that should render as HTML"
+	],
+  "description": "Open HTML text box that will fill tab",
+  "images": [
+		"img/cartridges/tab-html-1.png",  
+		"img/cartridges/tab-html-2.png",
+		"img/cartridges/tab-html-3.png",
+		"img/cartridges/tab-html-4.png"
+	]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "ecommerce",
+  "name": "Ecommerce",
+  "templates": ["RecordDetailsPage"],
+  "sections": ["RecordTopRight"],
+	"editableFields": ["Name"],
+  "description": "If property exists, display code for ecommerce based on ecommerce business logic",
+	"images": [
+		"img/cartridges/ecommerce-1.png",
+		"img/cartridges/ecommerce-2.png",
+		"img/cartridges/ecommerce-3.png",
+		"img/cartridges/ecommerce-4.png"
+	]
+}

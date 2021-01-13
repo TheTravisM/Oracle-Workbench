@@ -1,0 +1,21 @@
+{
+	"id":"hero-text-narrow",
+	"name": "Hero Text Narrow",
+	"templates": ["TwoColumnResultsPage"],
+  "sections": ["MainColumn"],
+  "subSections": ["Left"],
+  "editableFields": [
+  	"Name",
+  	"Headline",
+  	"Call to Action",
+  	"Action URL",
+  	"Target: Weather you want the link to open in a new window or not"
+  ],
+  "description": "HTML version of the hero cartridge for easier editability",	
+	"images": [
+		"img/cartridges/hero-text-narrow-1.png",
+		"img/cartridges/hero-text-narrow-2.png",
+		"img/cartridges/hero-text-narrow-3.png",
+		"img/cartridges/hero-text-narrow-4.png"
+	]
+}

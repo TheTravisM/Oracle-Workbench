@@ -1,0 +1,20 @@
+[
+	{
+		"id": "ResultsFullWidth",
+		"sections": [
+			"Header",
+			"Left Column",
+			"Main Column"
+		]
+	},
+	{
+		"id": "RecordDetailsPage",
+		"sections": [
+			"Header",
+			"Record Top Left",
+			"Record Top Right",
+			"Record Top Center",
+			"Record Bottom"
+		]
+	}
+]

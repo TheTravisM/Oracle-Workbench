@@ -1,0 +1,18 @@
+{
+  "id": "wrapper",
+  "name": "Wrapper",
+  "templates": ["ResultsFullWidth"],
+  "sections": ["MainColumn"],
+	"editableFields": [
+		"Name: This is a Wrapper cartridge that fits the width of MainColumnContent…when present, it will have additional cartridges inside of it that should be stacked on top of each other in their respective columns (left and right)",
+		"Left: Cartridges of type LeftSub allowed to be stacked here and should be displayed in the order returned",
+		"Right: Cartridges of type RightSub allowed to be stacked here and should be displayed in the order returned"
+	],
+	"description": "Lives in Main Column Content area and holds left and right subcartridges side by side",
+	"images": [
+		"img/cartridges/wrapper-1.png",
+		"img/cartridges/wrapper-2.png",
+		"img/cartridges/wrapper-3.png",
+		"img/cartridges/wrapper-4.png"
+	]
+}

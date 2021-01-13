@@ -1,0 +1,20 @@
+{
+  "id": "tab-video",
+  "name": "Tab Video",
+  "templates": ["RecordDetailsPage"],
+  "sections": ["RecordBottom"],
+  "sub-sections": ["Left Tab", "Right Tab"],
+	"editableFields": [
+		"Name",
+		"Tab Headline",
+		"Tab Description",
+		"Video XML URL"
+	],
+  "description": "Video URL should contain the URL to the file without the extention. The extention (mp4, webm, srt, and txt) will be added by the application",
+  "images": [
+		"img/cartridges/tab-video-1.png",  
+		"img/cartridges/tab-video-2.png",
+		"img/cartridges/tab-video-4.png",
+		"img/cartridges/tab-video-5.png"
+	]
+}
